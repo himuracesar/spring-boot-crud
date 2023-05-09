@@ -9,17 +9,16 @@ The technology used is:
   - Maven
   - PostgreSQL in database
 
-The script for create the database is in sql folder.
-  Videogames_DB.sql
+The script `Videogames_DB.sql` for create the database is in sql folder.
   
 To execute the script write in a shell:
-  psql -U postgres --file Videogame_DB.sql
+  `psql -U postgres --file Videogame_DB.sql`
   
 The project was worked in NetBeans 17.
 
 How to use the application
 ----------------------------------------
-##1. You have to crete a user with
+1. You have to crete an user with
   http://localhost:8080/api/users/create
   ```json
   {
@@ -43,7 +42,7 @@ How to use the application
   
   ### With fetch API for example
   ```javascript
-  fetch('https://reqbin.com/echo/get/json', {
+  fetch('http://localhost:8080/api/videogames/create', {
     headers: {Authorization: 'Bearer {token}'}
   })
    .then(resp => resp.json())
