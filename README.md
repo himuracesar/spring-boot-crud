@@ -55,8 +55,8 @@ How to use the application
   The web services to create, get, update or delete videogames or create or get platforms are protected so you need the token.
   
   **Platforms**  
-  `POST` http://localhost:8080/api/platforms/create  
-  `GET` http://localhost:8080/api/platforms  
+  `POST`  http://localhost:8080/api/platforms/create  
+  `GET`  http://localhost:8080/api/platforms  
   
   The JSON for platforms
   ```json
@@ -67,10 +67,10 @@ How to use the application
   ```
   
   **Videogames**  
-  `POST` http://localhost:8080/api/videogames/create  
-  `GET`http://localhost:8080/api/videogames  
-  `PUT`http://localhost:8080/api/videogames/{id}  
-  `DELETE`http://localhost:8080/api/videogames/{id}  
+  `POST`  http://localhost:8080/api/videogames/create  
+  `GET`  http://localhost:8080/api/videogames  
+  `PUT`  http://localhost:8080/api/videogames/{id}  
+  `DELETE` http://localhost:8080/api/videogames/{id}  
   
   The JSON for videogames
   ```json
