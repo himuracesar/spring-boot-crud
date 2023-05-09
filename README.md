@@ -38,7 +38,7 @@ How to use the application
   }
   ```
   
-  Web Service returns a **token and you have to copy and send it in the header of the request to other functions like platforms and videogames.
+  Web Service returns a **token** and you have to copy and send it in the header of the request to other functions like platforms and videogames.
   
   ### With fetch API for example
   ```javascript
