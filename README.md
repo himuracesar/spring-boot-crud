@@ -1,7 +1,5 @@
 # spring-boot-crud
 
-CRUD with Spring Boot
---------------------------------------------------
 This application is to manage a simple personal inventory of videogames. In this moment it is only the backend part.
 
 The technology used is:
