@@ -29,7 +29,7 @@ How to use the application
   
   The user will be created with the password cypher in database.
   
- ##2. Login to get a valid token
+ 2. Login to get a valid token
   http://localhost:8080/api/users/login
    ```json
   {
@@ -38,7 +38,7 @@ How to use the application
   }
   ```
   
-  Web Service returns a token and you have to copy and send it in the header of the request to other functions like platforms and videogames.
+  Web Service returns a **token and you have to copy and send it in the header of the request to other functions like platforms and videogames.
   
   ### With fetch API for example
   ```javascript
