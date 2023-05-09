@@ -22,8 +22,8 @@ How to use the application
   http://localhost:8080/api/users/create
   ```json
   {
-    "username" : "admin",
-    "password" : "qwerty"
+      "username" : "admin",
+      "password" : "qwerty"
   }
   ```
   
@@ -33,8 +33,8 @@ How to use the application
   http://localhost:8080/api/users/login
    ```json
   {
-    "username" : "admin",
-    "password" : "qwerty"
+      "username" : "admin",
+      "password" : "qwerty"
   }
   ```
   
@@ -51,6 +51,33 @@ How to use the application
    
    The label `Authorization` is important because is validated in the filter to validate the token.
    
-   The web services to create, get, update or delete videogames or create or get platforms are protected so you need the token.
-    
+  ### Web Services for videogames and platforms
+  The web services to create, get, update or delete videogames or create or get platforms are protected so you need the token.
   
+  **Platforms**
+  `POST` http://localhost:8080/api/platforms/create
+  `GET` http://localhost:8080/api/platforms
+  
+  The JSON for platforms
+  ```json
+  {
+      "name" : "Nintendo 3DS",
+      "owner" : "Nintendo"
+  }
+  ```
+  
+  **Videogames**
+  `POST` http://localhost:8080/api/videogames/create
+  `GET`http://localhost:8080/api/videogames
+  `PUT`http://localhost:8080/api/videogames/{id}
+  `DELETE`http://localhost:8080/api/videogames/{id}
+  
+  The JSON for videogames
+  ```json
+  {
+      "title" : "Batman Arkham Asylum",
+      "physics_format" : false,
+      "digital_format" : true,
+      "id_platform" : 5
+  }
+  ```
