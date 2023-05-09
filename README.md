@@ -11,7 +11,7 @@ The technology used is:
 
 The script `Videogames_DB.sql` for create the database is in sql folder.
   
-To execute the script write in a shell:
+To execute the script write in a shell:  
   `psql -U postgres --file Videogame_DB.sql`
   
 The project was worked in NetBeans 17.
@@ -54,9 +54,9 @@ How to use the application
   ### Web Services for videogames and platforms
   The web services to create, get, update or delete videogames or create or get platforms are protected so you need the token.
   
-  **Platforms**
-  `POST` http://localhost:8080/api/platforms/create
-  `GET` http://localhost:8080/api/platforms
+  **Platforms**  
+  `POST` http://localhost:8080/api/platforms/create  
+  `GET` http://localhost:8080/api/platforms  
   
   The JSON for platforms
   ```json
@@ -66,11 +66,11 @@ How to use the application
   }
   ```
   
-  **Videogames**
-  `POST` http://localhost:8080/api/videogames/create
-  `GET`http://localhost:8080/api/videogames
-  `PUT`http://localhost:8080/api/videogames/{id}
-  `DELETE`http://localhost:8080/api/videogames/{id}
+  **Videogames**  
+  `POST` http://localhost:8080/api/videogames/create  
+  `GET`http://localhost:8080/api/videogames  
+  `PUT`http://localhost:8080/api/videogames/{id}  
+  `DELETE`http://localhost:8080/api/videogames/{id}  
   
   The JSON for videogames
   ```json
